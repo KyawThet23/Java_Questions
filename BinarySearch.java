@@ -2,7 +2,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] array = {1,20,43};
-        int keyIndex = binarySearch(array,20);
+        int keyIndex = binarySearch(array,43);
+        System.out.println("Key found at index "+keyIndex);
     }
 
     public static int binarySearch(int[] array,int key){
